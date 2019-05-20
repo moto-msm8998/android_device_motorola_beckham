@@ -441,6 +441,7 @@ vendor/lib/libmodmanager.so
 vendor/lib64/libmodmanager.so
 vendor/lib64/com.motorola.mod@1.0_vendor.so
 vendor/lib/com.motorola.mod@1.0_vendor.so
+vendor/lib64/libvibratorhw.so|b859a3f3c47717a6088cc904bd82143e0fef48bb
 
 # NFC
 vendor/lib64/libpn553_fw.so
