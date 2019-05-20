@@ -430,7 +430,8 @@ etc/permissions/com.motorola.mod.protocols.xml
 etc/permissions/com.motorola.mod.xml|b25e55275b7ecc5f4d46db52c6148fe7c75ff60b
 etc/permissions/com.motorola.mod_config.xml
 etc/permissions/com.motorola.mod_v2.xml
-etc/permissions/privapp-permissions-com.motorola.modservice.xml
+ect/permissions/privapp-permissions-com.motorola.modservice.fmwkwrapper.xml|fde3c99c21661236d3a5b2574f94f708e7e16cc5
+etc/permissions/privapp-permissions-com.motorola.modservice.xml|a39773bcee02e230a52033bfddbabd7149d8613b
 etc/permissions/privapp-permissions-com.motorola.projectormod.xml
 lib64/libmodhw.so
 -priv-app/ModService/ModService.apk:priv-app/ModService/ModService.apk;PRESIGNED|8acc52de7a5d4f02ae0da7a0580f54f6cd52cf22
