@@ -23,7 +23,7 @@ vendor/lib/libflash_aw3643_rear.so
 vendor/lib/libflash_aw3643_front.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libgralloc1.so
-vendor/lib/libgui_vendor.so|2289516454cceae50bb3963f9255bc113a24b508
+vendor/lib/libgui_vendor.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
@@ -400,7 +400,7 @@ vendor/lib64/libssd.so
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
-vendor/lib64/com.fingerprints.extension@1.0_vendor.so
+vendor/lib64/com.fingerprints.extension@1.0.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
@@ -447,4 +447,4 @@ vendor/lib64/libiio.so
 vendor/lib/libiio.so
 
 # Thermal
-etc/thermal-engine-beckham.conf:vendor/etc/thermal-engine.conf
+vendor/etc/thermal-engine.conf
