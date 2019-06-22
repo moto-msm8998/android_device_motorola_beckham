@@ -447,4 +447,5 @@ vendor/lib64/libiio.so
 vendor/lib/libiio.so
 
 # Thermal
+etc/thermal-engine-beckham.conf:vendor/etc/thermal-engine-beckham.conf
 vendor/etc/thermal-engine.conf
