@@ -428,6 +428,10 @@ etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf
 etc/permissions/com.motorola.aov.xml
 etc/permissions/com.motorola.mod.protocols.xml
 etc/permissions/com.motorola.mod.xml|b25e55275b7ecc5f4d46db52c6148fe7c75ff60b
+etc/permissions/com.motorola.mod_config.xml
+etc/permissions/com.motorola.mod_v2.xml
+etc/permissions/privapp-permissions-com.motorola.modservice.xml
+etc/permissions/privapp-permissions-com.motorola.projectormod.xml
 lib64/libmodhw.so
 -priv-app/ModService/ModService.apk:priv-app/ModService/ModService.apk;PRESIGNED|8acc52de7a5d4f02ae0da7a0580f54f6cd52cf22
 -priv-app/ProjectorApp/ProjectorApp.apk:priv-app/ProjectorApp/ProjectorApp.apk;PRESIGNED
