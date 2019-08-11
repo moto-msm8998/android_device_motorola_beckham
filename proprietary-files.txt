@@ -23,7 +23,7 @@ vendor/lib/libflash_aw3643_rear.so
 vendor/lib/libflash_aw3643_front.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libgralloc1.so
-vendor/lib/libgui_vendor.so
+vendor/lib/libgui_vendor.so|286cd5111c82b65c6d3c49ba16a329dea53677d7
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
