@@ -33,6 +33,10 @@ export DEVICE_BRINGUP_YEAR=2018
 
 BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
 
+# Correct mods gid
+MODPERM="$BLOB_ROOT"/etc/permissions/com.motorola.mod.xml
+sed -i "s|mot_mod|oem_5020|g" "$MODPERM"
+
 # Load ZAF configs from vendor
 ZAF_CORE="$BLOB_ROOT"/vendor/lib/libzaf_core.so
 sed -i "s|/system/etc/zaf|/vendor/etc/zaf|g" "$ZAF_CORE"
