@@ -432,12 +432,13 @@ etc/permissions/com.motorola.mod.xml|b25e55275b7ecc5f4d46db52c6148fe7c75ff60b
 etc/permissions/com.motorola.mod_config.xml
 etc/permissions/com.motorola.mod_v2.xml
 lib64/libmodhw.so
+lib64/libvibratorhw.so|b859a3f3c47717a6088cc904bd82143e0fef48bb
+lib64/motorola.hardware.vibrator@1.0.so
 vendor/bin/mods_camd
 vendor/lib/libmodmanager.so
 vendor/lib64/libmodmanager.so
 vendor/lib64/com.motorola.mod@1.0_vendor.so
 vendor/lib/com.motorola.mod@1.0_vendor.so
-vendor/lib64/libvibratorhw.so|b859a3f3c47717a6088cc904bd82143e0fef48bb
 
 # NFC
 vendor/lib64/libpn553_fw.so
