@@ -58,6 +58,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/whitelist_modservice.xml:system/etc/sysconfig/whitelist_modservice.xml \
     $(LOCAL_PATH)/configs/hiddenapi-whitelist-com.motorola.modservice.xml:system/etc/sysconfig/hiddenapi-whitelist-com.motorola.modservice.xml
 
+# Lineage hardware
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.sdm660
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.1-service \

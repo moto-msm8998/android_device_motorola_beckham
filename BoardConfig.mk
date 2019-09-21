@@ -29,6 +29,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 TARGET_KERNEL_CONFIG := lineageos_beckham_defconfig
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/touch.xml
+
 # NFC
 BOARD_NFC_CHIPSET := pn553
 
