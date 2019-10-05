@@ -80,4 +80,4 @@ PRODUCT_RELEASE_NAME := beckham
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=beckham
 
-BUILD_FINGERPRINT := motorola/beckham/beckham:9/PPW29.183-29-1/f24db:user/release-keys
+BUILD_FINGERPRINT := motorola/beckham/beckham:9/PPW29.183-29-2/5ee55:user/release-keys

@@ -14,24 +14,24 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Mods
 PRODUCT_PROPERTY_OVERRIDES += \
-    sys.mod.platformsdkversion=205
+    sys.mod.platformsdkversion=281
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.sensors=beckham \
-    ro.vendor.sensors.maghalcal=false \
-    ro.vendor.sensors.pmd=false \
+    ro.vendor.sdk.sensors.gestures=false \
     ro.vendor.sensors.amd=false \
-    ro.vendor.sensors.rmd=false \
-    ro.vendor.sensors.scrn_ortn=false \
-    ro.vendor.sensors.pedometer=false \
-    ro.vendor.sensors.mot_ltv=true \
-    ro.vendor.sensors.facing=false \
     ro.vendor.sensors.cmc=false \
     ro.vendor.sensors.dev_ori=true \
-    ro.vendor.sensors.sta_detect=true \
+    ro.vendor.sensors.facing=false \
+    ro.vendor.sensors.maghalcal=false \
     ro.vendor.sensors.mot_detect=true \
-    ro.vendor.sdk.sensors.gestures=false
+    ro.vendor.sensors.mot_ltv=true \
+    ro.vendor.sensors.pedometer=false \
+    ro.vendor.sensors.pmd=false \
+    ro.vendor.sensors.rmd=false \
+    ro.vendor.sensors.scrn_ortn=false \
+    ro.vendor.sensors.sta_detect=true
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \

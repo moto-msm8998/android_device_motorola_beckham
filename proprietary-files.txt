@@ -401,6 +401,17 @@ vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib64/com.fingerprints.extension@1.0.so
 
+# Firmware
+etc/firmware/MotorolaCapSense.hex
+etc/firmware/opalum.rx.ext.config.0
+etc/firmware/opalum.rx.ext.config.1
+etc/firmware/opalum.rx.ext.config.2
+etc/firmware/opalum.rx.ext.config.3
+etc/firmware/opalum.tx.ext.config.0
+etc/firmware/opalum.tx.ext.config.1
+etc/firmware/opalum.tx.ext.config.2
+etc/firmware/opalum.tx.ext.config.3
+
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
@@ -425,9 +436,9 @@ vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 
 # Moto Mods
--priv-app/ModFmwkProxyService/ModFmwkProxyService.apk
--priv-app/ModService/ModService.apk:priv-app/ModService/ModService.apk;PRESIGNED
--priv-app/ProjectorApp/ProjectorApp.apk:priv-app/ProjectorApp/ProjectorApp.apk;PRESIGNED
+-priv-app/ModFmwkProxyService/ModFmwkProxyService.apk|4b41d39886a95d5397d1b8a6cd445a5c0abf5dd6
+-priv-app/ModService/ModService.apk:priv-app/ModService/ModService.apk
+-priv-app/ProjectorApp/ProjectorApp.apk:priv-app/ProjectorApp/ProjectorApp.apk
 etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf
 etc/permissions/com.motorola.aov.xml
 etc/permissions/com.motorola.mod.protocols.xml
