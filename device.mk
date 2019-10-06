@@ -55,7 +55,8 @@ PRODUCT_PACKAGES += \
 
 # ModService
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/whitelist_modservice.xml:system/etc/sysconfig/whitelist_modservice.xml
+    $(LOCAL_PATH)/configs/whitelist_modservice.xml:system/etc/sysconfig/whitelist_modservice.xml \
+    $(LOCAL_PATH)/configs/hiddenapi-whitelist-com.motorola.modservice.xml:system/etc/sysconfig/hiddenapi-whitelist-com.motorola.modservice.xml
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -78,7 +79,6 @@ PRODUCT_COPY_FILES += \
 
 # Priv-app Permissions
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/privapp-permissions-com.motorola.modservice.fmwkwrapper.xml:system/etc/permissions/privapp-permissions-com.motorola.modservice.fmwkwrapper.xml \
     $(LOCAL_PATH)/configs/privapp-permissions-com.motorola.modservice.xml:system/etc/permissions/privapp-permissions-com.motorola.modservice.xml \
     $(LOCAL_PATH)/configs/privapp-permissions-com.motorola.projectormod.xml:system/etc/permissions/privapp-permissions-com.motorola.projectormod.xml
 
